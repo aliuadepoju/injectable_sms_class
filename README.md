@@ -6,7 +6,7 @@ This class would probably makes integration of smslive24 SMS API easier,  can be
 
  - Include SMS.php or Inject class in controller
  - Call  
- 
+ ```php
       $sms = new SMS("http://www.smslive247.com/http/index.aspx");
 	 		$sms->account("Account Email","Sub-account","password");
 	 		$sms->addSender("Sender");
@@ -14,6 +14,6 @@ This class would probably makes integration of smslive24 SMS API easier,  can be
 	 		$sms->addRecipient("phone number");
 	 		$sms->send();// Return boolean
 
-
+```
 #Tested
 This script works for simple SMS, it subject to modification to suit your needs

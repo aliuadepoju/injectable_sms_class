@@ -36,7 +36,7 @@ This class would probably makes integration of smslive24 SMS API easier,  can be
 
 ``` php
 	
-	if($sms->send() === true){
+	if($sms->send() === false){
 		echo $sms->getResponse();
 		 //Log::info($sms->getResponse());
 	}

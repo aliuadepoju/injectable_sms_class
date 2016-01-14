@@ -17,4 +17,4 @@ This class would probably makes integration of smslive24 SMS API easier,  can be
 
 ```
 #Tested
-This script works for simple SMS, it subject to modification to suit your needs
+This script works for simple SMS, it's subject to modification to suit your needs

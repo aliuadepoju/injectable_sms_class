@@ -32,5 +32,16 @@ This class would probably makes integration of smslive24 SMS API easier,  can be
 
 ```
 
+#Get and log response 
+
+``` php
+	
+	if($sms->send() === true){
+		echo $sms->getResponse();
+		 //Log::info($sms->getResponse());
+	}
+
+```
+
 #Tested
 This script works for simple SMS, it's subject to modification to suit your needs
